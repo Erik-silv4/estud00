@@ -22,7 +22,7 @@ def bisseccao(f, a, b, tol, max_iter=100):
 
 
 def funcao_exemplo(x):
-    return  x*log(x,10)-1
+    return  x*log(x,10)-1           """ funcao da formula """
 a = float(input("Digite o intervalo inferior:"))
 b = float(input("Digite o intervalo superior:"))
 tol = float(input("Digite o valor da tolerância:\n"))
