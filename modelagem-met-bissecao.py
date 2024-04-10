@@ -16,12 +16,13 @@ def bisseccao(f, a, b, tol, max_iter=100):
         else:
             a = x
         iter_count += 1
+        print(f(x))
 
     return (a + b) / 2, iter_count
 
 
 def funcao_exemplo(x):
-    return  x**2 - 5*x + 6
+    return  x*log(x,10)-1
 a = float(input("Digite o intervalo inferior:"))
 b = float(input("Digite o intervalo superior:"))
 tol = float(input("Digite o valor da tolerância:\n"))
